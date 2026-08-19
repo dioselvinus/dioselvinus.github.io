@@ -1,72 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Yo.</title>
-        <link rel="stylesheet" href="dist/css/app.css">
-        <script src="dist/js/app.js" defer></script>
-    </head>
-
-    <body>
-        <!-- Navbar goes here -->
-        <nav>
-            <div class="nav-wrapper">
-                <!-- Website Logo -->
-                <a href="./index.html">
-                    <span>Dio selvinus silalebit</span>
-                </a>
-                <!-- Primary Navbar items -->
-                <div class="nav-menu">
-                    <a href="./index.html" class="active">Home</a>
-                    <a href="./project.html">Project</a>
-                    <a href="./aboutme.html">About</a>
-                </div>
-                <!-- Mobile menu button -->
-                <div class="md:hidden flex items-center">
-                    <button class="outline-none mobile-menu-button">
-                        <svg class=" w-6 h-6 text-gray-500 hover:text-green-500 " x-show="!showMenu" fill="none"
-                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path d="M4 6h16M4 12h16M4 18h16"></path>
-                        </svg>
-                    </button>
-                </div>
-            </div>
-            <!-- mobile menu -->
-            <div class="hidden mobile-menu">
-                <ul class="">
-                    <li class="active">
-                        <a href="./index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="./project.html">Project</a>
-                    </li>
-                    <li>
-                        <a href="./aboutme.html">About</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="mx-auto max-w-6xl py-10 px-4">
-            <div class="font-bold mb-10">
-                <h2 class="uppercase text-base md:text-lg lg:text-lg">halo, nama saya</h2>
-                <h1 class="text-3xl md:text-4xl lg:text-6xl py-4 " id="typewrite" data-period="100"
-                    data-type='[ "dslv", "Dio Selvinus Silalebit."]'>
-                    <span id="wrap"></span>
-                </h1>
-
-                <h1 class="text-2xl md:text-3xl py-4">Saya seorang full stack web developer, dan senang akan
-                    eksperimen mengenai
-                    data-data yang ada</h1>
-            </div>
-            <div>
-                <h2 class="uppercase font-medium text-gray-600">Recent Updates</h2>
-                <span id="recentUpdates" class="grid grid-cols-1 md:grid-cols-2 md:space-x-3"></span>
-            </div>
-        </div>
-    </body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Dio Selvinus Silalebit — Full Stack Developer. Senang mengolah data dan bereksperimen." />
+    <title>Dio Selvinus Silalebit — Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

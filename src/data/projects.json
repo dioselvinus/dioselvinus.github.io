@@ -1,0 +1,33 @@
+[
+  {
+    "id": "1",
+    "title": "Phirogo",
+    "subtitle": "HRIS Systems",
+    "url": "https://phirogo.com",
+    "type": "Company Project",
+    "image": "images/project/phiro-hero.webp",
+    "date": "2022-01-15",
+    "tech": ["Phalcon PHP", "PHP", "JavaScript", "PostgreSQL", "Podman", "React Native", "Fastlane"]
+  },
+  {
+    "id": "2",
+    "title": "Phiro Neo",
+    "subtitle": "HCMS Systems",
+    "url": "https://phiro.co",
+    "type": "Company Project",
+    "image": "images/project/phiro-hero.webp",
+    "date": "2024-06-20",
+    "tech": ["CodeIgniter", "PHP", "JavaScript", "PostgreSQL", "Podman", "React Native", "Jenkins", "Langgraph", "LangChain"]
+  },
+  {
+    "id": "3",
+    "title": "PicCorner",
+    "subtitle": "Platform Photobooth System",
+    "url": "https://picorner.app/s/ba7qmaya",
+    "type": "Personal Project",
+    "image": "images/project/phiro-hero.webp",
+    "videoYoutubeId": "",
+    "date": "2026-08-14",
+    "tech": ["Go", "Podman", "SolidJS", "Tailwind CSS", "Flutter", "S3 Compatible", "PostgreSQL", "Ory"]
+  }
+]
