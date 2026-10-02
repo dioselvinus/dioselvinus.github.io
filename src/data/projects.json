@@ -26,7 +26,7 @@
     "url": "https://picorner.app/s/ba7qmaya",
     "type": "Personal Project",
     "image": "images/project/phiro-hero.webp",
-    "videoYoutubeId": "https://youtu.be/7Y3--CE5c8A",
+    "videoYoutubeId": "7Y3--CE5c8A",
     "date": "2026-08-14",
     "tech": ["Go", "Podman", "SolidJS", "Tailwind CSS", "Flutter", "S3 Compatible", "PostgreSQL", "Ory"]
   }
